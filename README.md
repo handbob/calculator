@@ -1,4 +1,4 @@
-# CommandLine Calculator in OpenJDK
+# Interactive commandLine calculator
 
 ### Requirements
 [Java](https://adoptium.net), [Gradle](https://gradle.org)
