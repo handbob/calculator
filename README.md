@@ -8,7 +8,7 @@
 #### Run
 * Windows, MacOS/Linux
 ```
-gradle build
+gradle run
 ```
 #### Build
 * Windows, MacOS/Linux
