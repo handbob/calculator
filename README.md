@@ -5,11 +5,6 @@
 
 ### Build & Run project
 
-#### Run
-* Windows, MacOS/Linux
-```
-gradle run
-```
 #### Build
 * Windows, MacOS/Linux
 ```
