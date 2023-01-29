@@ -3,9 +3,14 @@
 ### Requirements
 [Java](https://adoptium.net), [Gradle](https://gradle.org)
 
-### Build & Run
+### Build & Run project
 
-#### Build project
+#### Run
+* Windows, MacOS/Linux
+```
+gradle build
+```
+#### Build
 * Windows, MacOS/Linux
 ```
 gradle build
