@@ -2,6 +2,62 @@ package io.github.handbob.calculator;
 
 import java.util.Scanner;
 
+class Operators {
+    public double addition(double a, double b) {
+        double c = 0;
+        if (a < 0) {
+            c = (a * (-1)) + b;
+        }
+        else if (b < 0) {
+            c = a + (b * (-1));
+        }
+        else {
+            c = a + b;
+        }
+        return c;
+    }
+    public double subtraction(double a, double b) {
+        double c = 0;
+        if (a < 0) {
+            c = (a * (-1)) - b;
+        }
+        else if (b < 0) {
+            c = a - (b * (-1));
+        }
+        else {
+            c = a - b;
+        }
+        return c;
+    }
+    public double multiplication(double a, double b) {
+        double c = 0;
+        if (a < 0) {
+            c = (a * (-1)) * b;
+        }
+        else if (b < 0) {
+            c = a * (b * (-1));
+        }
+        else {
+            c = a * b;
+        }
+        return c;
+    }
+    public double division(double a, double b) {
+        double c = 0;
+        if (a < 0) {
+            c = (a * (-1)) / b;
+        }
+        else if (b < 0) {
+            c = a / (b * (-1));
+        }
+        else {
+            c = a / b;
+        }
+        return c;
+    }
+}
+
+
 public class Main {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
@@ -11,7 +67,7 @@ public class Main {
             String inputA = new String();
             String inputB = new String();
             
-            message = "Interactive commandline calculator!\nchoose one option:\n1. calculator\n2. exit\noption: ";
+            message = "\nInteractive commandline calculator!\nchoose one option:\n1. calculator\n2. exit\noption: ";
 
             System.out.printf("%s", message);
             option = scanner.nextLine();
