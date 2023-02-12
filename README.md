@@ -1,21 +1,17 @@
-# Interactive commandLine calculator
+# Interactive commandLine guess the number
 
 ### Requirements
-[.NET](https://dotnet.microsoft.com)
+[Java](https://adoptium.net), [Gradle](https://gradle.org)
 
 ### Build & Run project
 
-#### Restore
-```
-dotnet restore
-```
 #### Build
 * Windows, MacOS/Linux
 ```
-dotnet build
+gradle build
 ```
-#### Run
+#### Run Jar file
 * Windows, MacOS/Linux
 ```
-dotnet run
+java -jar calculator-1.0.0.jar
 ```
