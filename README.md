@@ -1,16 +1,15 @@
-# Interactive commandLine guess the number
+# Interactive commandLine calculator
 
 ### Requirements
-[Java](https://adoptium.net), [Gradle](https://gradle.org)
+[Java](https://adoptium.net), [Maven](https://maven.apache.org)
 
 ### Build & Run project
-
-#### Build
+#### Build Jar File
 * Windows, MacOS/Linux
 ```
-gradle build
+mvn package
 ```
-#### Run Jar file
+#### Run Jar File
 * Windows, MacOS/Linux
 ```
 java -jar calculator-1.0.0.jar
